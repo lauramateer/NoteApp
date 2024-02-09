@@ -130,4 +130,5 @@ function f11(e)
     timeElement.textContent = formatTime(now);
     dateElement.textContent = formatDate(now);
 
+
 }
