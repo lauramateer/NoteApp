@@ -24,10 +24,20 @@
 
     <div id="a">
         
+
         <h1>Notes</h1>
         <button type="button" onclick="f11(this)">
             Create Notes
         </button>
+        
+        <button id="dark" onclick="darkmode()">Dark/Light</button>
+
+    <script>
+     function darkmode(){
+      const body = document.body;
+          body.classList.toggle('dark-mode');}
+    </script>
+
      
     </div>    
 
